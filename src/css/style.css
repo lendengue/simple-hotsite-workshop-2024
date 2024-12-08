@@ -1,0 +1,164 @@
+/* BANNER */
+
+#intro #banner img {
+    height: 100%;
+    width: 100%;
+}
+
+/* FIM BANNER */
+
+
+/* NAV */
+
+#main-nav {
+    background-color: #fff;
+    position: fixed;
+    padding: 0 1em;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-menu {
+    flex-basis: 100%; /* define o tamanho inicial de um elemento antes que o espaço restante seja redistribuído*/
+    align-items: left;
+}
+
+.nav-item{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.nav-link {
+    color: #840dd4;
+    font-weight: 600;
+}
+
+/* FIM NAV */
+
+
+/* ATRACOES */
+#atracoes {
+    margin-top: 1.5rem;
+}
+
+#atracoes h2, p{
+    text-align: center;
+    color: #840dd4;
+}
+
+#atracoes h2 {
+    margin-bottom: 1.5rem;
+}
+
+.atracoes-icons {
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.atracoes-icons .cards {
+    max-width: 100%;
+    width: 30%;
+
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.atracoes-icons .cards img{
+    max-width: 30%;
+    margin: 1rem;
+}
+
+.atracoes-icons .cards:hover{
+    background-color: #d2c3dd;
+    /* background-color: #dae0e5; */
+}
+
+/* FIM ATRACOES */
+
+
+/* INSCRICAO */
+
+#inscricao{
+    background-color: #840dd4;
+}
+
+#inscricao h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#inscricao h2{
+    padding: 1.5rem;
+}
+
+#inscricao .formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#inscricao .input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+#inscricao .input-group label{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+#inscricao .input-group button{
+    margin-top: 1rem;
+    width: 70%;
+    align-self: center;
+}
+
+
+
+
+/* FIMINSCRICAO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
